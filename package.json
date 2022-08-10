@@ -1,9 +1,9 @@
 {
-  "name": "parcel-project-template",
+  "name": "ice-cream-landing-main",
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://Stanislav-Sobolev.github.io/ice-cream-landing",
+  "homepage": "https://yevhen777.github.io/ice-cream-landing-main/",
   "scripts": {
     "dev": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /ice-cream-landing/"
