@@ -6,7 +6,7 @@
   "homepage": "https://yevhen777.github.io/ice-cream-landing-main/",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /ice-cream-landing/"
+    "build": "parcel build src/*.html --public-url /ice-cream-landing-main/"
   },
   "repository": {
     "type": "git",
