@@ -7,7 +7,7 @@ const e=new Swiper(".swiper",{loop:!0,pagination:{el:".swiper-pagination",clicka
 },{}],"i0CD":[function(require,module,exports) {
 (()=>{const e=document.querySelector(".js-menu-container"),t=document.querySelector(".js-open-menu"),n=document.querySelector(".js-close-menu"),c=()=>{const n="true"===t.getAttribute("aria-expanded")||!1;t.setAttribute("aria-expanded",!n),e.classList.toggle("is-open")};t.addEventListener("click",c),n.addEventListener("click",c),window.matchMedia("(min-width: 1280px)").addEventListener("change",n=>{n.matches&&(e.classList.remove("is-open"),t.setAttribute("aria-expanded",!1),bodyScrollLock.enableBodyScroll(document.body))})})();
 },{}],"Dcx1":[function(require,module,exports) {
-!function(){"use strict";var s=document.querySelector(".scrollup");window.addEventListener("scroll",function(){var e=window.pageYOffset;e>200&&s.classList.add("scrollup-show"),e<200&&s.classList.remove("scrollup-show")}),s.addEventListener("click",function s(){window.pageYOffset>0&&(window.scrollBy(0,-80),setTimeout(s,0))})}();
+!function(){"use strict";const s=document.querySelector(".scrollup");window.addEventListener("scroll",function(){var e=window.pageYOffset;e>200&&s.classList.add("scrollup-show"),e<200&&s.classList.remove("scrollup-show")}),s.addEventListener("click",function s(){window.pageYOffset>0&&(window.scrollBy(0,-80),setTimeout(s,0))})}();
 },{}],"n7ip":[function(require,module,exports) {
 (()=>{const e={openModalBtn:document.querySelector("[data-buynow-open]"),closeModalBtn:document.querySelector("[data-buynow-close]"),modal:document.querySelector("[data-buynow]")};function o(){e.modal.classList.toggle("is-hidden")}e.openModalBtn.addEventListener("click",o),e.closeModalBtn.addEventListener("click",o)})();
 },{}],"c3nZ":[function(require,module,exports) {
@@ -21,4 +21,4 @@ function n(n,e,t,o){let i=null;Date.now();const m=a=>{i||(i=a);const d=Math.min(
 },{}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss"),require("./js/counter-hero.js"),require("./js/slider.js"),require("./js/menu.js"),require("./js/arrow.js"),require("./js/buynow.js"),require("./js/buynow-mob.js"),require("./js/franchise.js"),require("./js/counter-adv.js"),require("./js/locations.js");
 },{"./sass/main.scss":"clu1","./js/counter-hero.js":"l9t7","./js/slider.js":"wzuc","./js/menu.js":"i0CD","./js/arrow.js":"Dcx1","./js/buynow.js":"n7ip","./js/buynow-mob.js":"c3nZ","./js/franchise.js":"wkSI","./js/counter-adv.js":"lQQc","./js/locations.js":"bcD2"}]},{},["Focm"], null)
-//# sourceMappingURL=/ice-cream-landing/src.c060af0c.js.map
+//# sourceMappingURL=/ice-cream-landing/src.f9da7e81.js.map
